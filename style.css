@@ -1,0 +1,131 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #bfecf7;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  justify-content: center;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: right;
+  color: darkgreen;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.card {
+  width: 50%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.creative {
+  color: midnightblue;
+}
+
+.agency {
+  color: darkmagenta;
+}
+
+.design {
+  color: burlywood;
+}
+
+.we {
+  color: salmon;
+}
+
+.are {
+  color: aqua;
+}
+
+.a {
+  color: darkgoldenrod;
+}
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card-title {
+    color: darkgreen;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+
+  .card-text {
+    background: #fff;
+    font-family: Montserrat, sans-serif;;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #009688;
+    padding: 40px;
+    box-shadow: 
+    inset #009688 0 0 0 5px, 
+    inset #059c8e 0 0 0 1px, 
+    inset #0cab9c 0 0 0 10px, 
+    inset #1fbdae 0 0 0 11px, 
+    inset #8ce9ff 0 0 0 16px, 
+    inset #48e4d6 0 0 0 17px, 
+    inset #e5f9f7 0 0 0 21px, 
+    inset #bfecf7 0 0 0 22px;
+    text-shadow: 3px 3px 1px #bfecf7;
+  }
+
+  p {
+    background: #fff;
+    font-family: Montserrat, sans-serif;;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #009688;
+    padding: 40px;
+    box-shadow: 
+    inset #009688 0 0 0 5px, 
+    inset #059c8e 0 0 0 1px, 
+    inset #0cab9c 0 0 0 10px, 
+    inset #1fbdae 0 0 0 11px, 
+    inset #8ce9ff 0 0 0 16px, 
+    inset #48e4d6 0 0 0 17px, 
+    inset #e5f9f7 0 0 0 21px, 
+    inset #bfecf7 0 0 0 22px;
+    text-shadow: 3px 3px 1px #bfecf7;
+  }
+}
